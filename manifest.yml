@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Anusha_IB
+  host: AnushaIB
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Cloudant NoSQL DB-6u
